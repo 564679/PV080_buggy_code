@@ -3,7 +3,7 @@
 
 function activate_shell {
     python3 -m venv env
-    source ./env/bin/activate
+    source /bin/activate
 }
 
 function install_requirements {
